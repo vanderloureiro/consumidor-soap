@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.11 
+Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2021.11.15 às 04:04:35 PM BRT 
+
+  -->
+  <bindings xmlns:tns="http://cliente.bean.master.sigep.bsb.correios.com.br/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.consumidorsoap.bindings"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:VerificaSeTodosObjetosCancelados">
+      <class ref="com.consumidorsoap.bindings.VerificaSeTodosObjetosCancelados"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:VerificaSeTodosObjetosCanceladosResponse">
+      <class ref="com.consumidorsoap.bindings.VerificaSeTodosObjetosCanceladosResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:atualizaPagamentoNaEntrega">
+      <class ref="com.consumidorsoap.bindings.AtualizaPagamentoNaEntrega"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:atualizaPagamentoNaEntregaResponse">
+      <class ref="com.consumidorsoap.bindings.AtualizaPagamentoNaEntregaResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:atualizaRemessaAgrupada">
+      <class ref="com.consumidorsoap.bindings.AtualizaRemessaAgrupada"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:atualizaRemessaAgrupadaResponse">
+      <class ref="com.consumidorsoap.bindings.AtualizaRemessaAgrupadaResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:bloquearObjeto">
+      <class ref="com.consumidorsoap.bindings.BloquearObjeto"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:bloquearObjetoResponse">
+      <class ref="com.consumidorsoap.bindings.BloquearObjetoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaCliente">
+      <class ref="com.consumidorsoap.bindings.BuscaCliente"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaClienteResponse">
+      <class ref="com.consumidorsoap.bindings.BuscaClienteResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaContrato">
+      <class ref="com.consumidorsoap.bindings.BuscaContrato"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaContratoResponse">
+      <class ref="com.consumidorsoap.bindings.BuscaContratoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaDataAtual">
+      <class ref="com.consumidorsoap.bindings.BuscaDataAtual"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaDataAtualResponse">
+      <class ref="com.consumidorsoap.bindings.BuscaDataAtualResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaOpcoes">
+      <class ref="com.consumidorsoap.bindings.BuscaOpcoes"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaOpcoesResponse">
+      <class ref="com.consumidorsoap.bindings.BuscaOpcoesResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaPagamentoEntrega">
+      <class ref="com.consumidorsoap.bindings.BuscaPagamentoEntrega"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaPagamentoEntregaResponse">
+      <class ref="com.consumidorsoap.bindings.BuscaPagamentoEntregaResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaServicos">
+      <class ref="com.consumidorsoap.bindings.BuscaServicos"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaServicosAdicionaisAtivos">
+      <class ref="com.consumidorsoap.bindings.BuscaServicosAdicionaisAtivos"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaServicosAdicionaisAtivosResponse">
+      <class ref="com.consumidorsoap.bindings.BuscaServicosAdicionaisAtivosResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaServicosResponse">
+      <class ref="com.consumidorsoap.bindings.BuscaServicosResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaServicosValorDeclarado">
+      <class ref="com.consumidorsoap.bindings.BuscaServicosValorDeclarado"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaServicosValorDeclaradoResponse">
+      <class ref="com.consumidorsoap.bindings.BuscaServicosValorDeclaradoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaServicosXServicosAdicionais">
+      <class ref="com.consumidorsoap.bindings.BuscaServicosXServicosAdicionais"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaServicosXServicosAdicionaisResponse">
+      <class ref="com.consumidorsoap.bindings.BuscaServicosXServicosAdicionaisResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaTarifaVale">
+      <class ref="com.consumidorsoap.bindings.BuscaTarifaVale"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:buscaTarifaValeResponse">
+      <class ref="com.consumidorsoap.bindings.BuscaTarifaValeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:calculaTarifaServico">
+      <class ref="com.consumidorsoap.bindings.CalculaTarifaServico"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:calculaTarifaServicoResponse">
+      <class ref="com.consumidorsoap.bindings.CalculaTarifaServicoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cancelarObjeto">
+      <class ref="com.consumidorsoap.bindings.CancelarObjeto"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cancelarObjetoResponse">
+      <class ref="com.consumidorsoap.bindings.CancelarObjetoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cancelarPedidoScol">
+      <class ref="com.consumidorsoap.bindings.CancelarPedidoScol"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cancelarPedidoScolResponse">
+      <class ref="com.consumidorsoap.bindings.CancelarPedidoScolResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:consultaCEP">
+      <class ref="com.consumidorsoap.bindings.ConsultaCEP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:consultaCEPResponse">
+      <class ref="com.consumidorsoap.bindings.ConsultaCEPResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:fechaPlp">
+      <class ref="com.consumidorsoap.bindings.FechaPlp"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:fechaPlpResponse">
+      <class ref="com.consumidorsoap.bindings.FechaPlpResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:fechaPlpVariosServicos">
+      <class ref="com.consumidorsoap.bindings.FechaPlpVariosServicos"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:fechaPlpVariosServicosResponse">
+      <class ref="com.consumidorsoap.bindings.FechaPlpVariosServicosResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:geraDigitoVerificadorEtiquetas">
+      <class ref="com.consumidorsoap.bindings.GeraDigitoVerificadorEtiquetas"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:geraDigitoVerificadorEtiquetasResponse">
+      <class ref="com.consumidorsoap.bindings.GeraDigitoVerificadorEtiquetasResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getStatusCartaoPostagem">
+      <class ref="com.consumidorsoap.bindings.GetStatusCartaoPostagem"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getStatusCartaoPostagemResponse">
+      <class ref="com.consumidorsoap.bindings.GetStatusCartaoPostagemResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getStatusPLP">
+      <class ref="com.consumidorsoap.bindings.GetStatusPLP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getStatusPLPResponse">
+      <class ref="com.consumidorsoap.bindings.GetStatusPLPResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:integrarUsuarioScol">
+      <class ref="com.consumidorsoap.bindings.IntegrarUsuarioScol"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:integrarUsuarioScolResponse">
+      <class ref="com.consumidorsoap.bindings.IntegrarUsuarioScolResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:obterClienteAtualizacao">
+      <class ref="com.consumidorsoap.bindings.ObterClienteAtualizacao"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:obterClienteAtualizacaoResponse">
+      <class ref="com.consumidorsoap.bindings.ObterClienteAtualizacaoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:obterEmbalagemLRS">
+      <class ref="com.consumidorsoap.bindings.ObterEmbalagemLRS"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:obterEmbalagemLRSResponse">
+      <class ref="com.consumidorsoap.bindings.ObterEmbalagemLRSResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:obterMensagemParametrizada">
+      <class ref="com.consumidorsoap.bindings.ObterMensagemParametrizada"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:obterMensagemParametrizadaResponse">
+      <class ref="com.consumidorsoap.bindings.ObterMensagemParametrizadaResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pesquisarDimensoesServico">
+      <class ref="com.consumidorsoap.bindings.PesquisarDimensoesServico"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pesquisarDimensoesServicoResponse">
+      <class ref="com.consumidorsoap.bindings.PesquisarDimensoesServicoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pesquisarEmbalagensPorServico">
+      <class ref="com.consumidorsoap.bindings.PesquisarEmbalagensPorServico"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pesquisarEmbalagensPorServicoResponse">
+      <class ref="com.consumidorsoap.bindings.PesquisarEmbalagensPorServicoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pesquisarParametrosPorDescricao">
+      <class ref="com.consumidorsoap.bindings.PesquisarParametrosPorDescricao"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pesquisarParametrosPorDescricaoResponse">
+      <class ref="com.consumidorsoap.bindings.PesquisarParametrosPorDescricaoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pesquisarServicosAdicionais">
+      <class ref="com.consumidorsoap.bindings.PesquisarServicosAdicionais"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pesquisarServicosAdicionaisResponse">
+      <class ref="com.consumidorsoap.bindings.PesquisarServicosAdicionaisResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:solicitaEtiquetas">
+      <class ref="com.consumidorsoap.bindings.SolicitaEtiquetas"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:solicitaEtiquetasResponse">
+      <class ref="com.consumidorsoap.bindings.SolicitaEtiquetasResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:solicitaPLP">
+      <class ref="com.consumidorsoap.bindings.SolicitaPLP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:solicitaPLPResponse">
+      <class ref="com.consumidorsoap.bindings.SolicitaPLPResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:solicitaXmlPlp">
+      <class ref="com.consumidorsoap.bindings.SolicitaXmlPlp"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:solicitaXmlPlpResponse">
+      <class ref="com.consumidorsoap.bindings.SolicitaXmlPlpResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:solicitarPostagemScol">
+      <class ref="com.consumidorsoap.bindings.SolicitarPostagemScol"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:solicitarPostagemScolResponse">
+      <class ref="com.consumidorsoap.bindings.SolicitarPostagemScolResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validaEtiquetaPLP">
+      <class ref="com.consumidorsoap.bindings.ValidaEtiquetaPLP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validaEtiquetaPLPResponse">
+      <class ref="com.consumidorsoap.bindings.ValidaEtiquetaPLPResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validaPlp">
+      <class ref="com.consumidorsoap.bindings.ValidaPlp"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validaPlpResponse">
+      <class ref="com.consumidorsoap.bindings.ValidaPlpResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validarPostagemReversa">
+      <class ref="com.consumidorsoap.bindings.ValidarPostagemReversa"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validarPostagemReversaResponse">
+      <class ref="com.consumidorsoap.bindings.ValidarPostagemReversaResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validarPostagemSimultanea">
+      <class ref="com.consumidorsoap.bindings.ValidarPostagemSimultanea"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:validarPostagemSimultaneaResponse">
+      <class ref="com.consumidorsoap.bindings.ValidarPostagemSimultaneaResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:verificaDisponibilidadeServico">
+      <class ref="com.consumidorsoap.bindings.VerificaDisponibilidadeServico"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:verificaDisponibilidadeServicoResponse">
+      <class ref="com.consumidorsoap.bindings.VerificaDisponibilidadeServicoResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:verificaModalTransporte">
+      <class ref="com.consumidorsoap.bindings.VerificaModalTransporte"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:verificaModalTransporteResponse">
+      <class ref="com.consumidorsoap.bindings.VerificaModalTransporteResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SQLException">
+      <class ref="com.consumidorsoap.bindings.SQLException"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Exception">
+      <class ref="com.consumidorsoap.bindings.Exception"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ErroMontagemRelatorio">
+      <class ref="com.consumidorsoap.bindings.ErroMontagemRelatorio"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:servicoAdicionalXML">
+      <class ref="com.consumidorsoap.bindings.ServicoAdicionalXML"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:objetoPostal">
+      <class ref="com.consumidorsoap.bindings.ObjetoPostal"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:objetoPostalPK">
+      <class ref="com.consumidorsoap.bindings.ObjetoPostalPK"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:preListaPostagem">
+      <class ref="com.consumidorsoap.bindings.PreListaPostagem"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cartaoPostagemERP">
+      <class ref="com.consumidorsoap.bindings.CartaoPostagemERP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:contratoERP">
+      <class ref="com.consumidorsoap.bindings.ContratoERP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:clienteERP">
+      <class ref="com.consumidorsoap.bindings.ClienteERP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:gerenteConta">
+      <class ref="com.consumidorsoap.bindings.GerenteConta"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:usuarioInstalacao">
+      <class ref="com.consumidorsoap.bindings.UsuarioInstalacao"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:parametroMaster">
+      <class ref="com.consumidorsoap.bindings.ParametroMaster"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:contratoERPPK">
+      <class ref="com.consumidorsoap.bindings.ContratoERPPK"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:unidadePostagemERP">
+      <class ref="com.consumidorsoap.bindings.UnidadePostagemERP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:enderecoERP">
+      <class ref="com.consumidorsoap.bindings.EnderecoERP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:servicoERP">
+      <class ref="com.consumidorsoap.bindings.ServicoERP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:servicoSigep">
+      <class ref="com.consumidorsoap.bindings.ServicoSigep"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:chancelaMaster">
+      <class ref="com.consumidorsoap.bindings.ChancelaMaster"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:servicoAdicionalERP">
+      <class ref="com.consumidorsoap.bindings.ServicoAdicionalERP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:valorDeclarado">
+      <class ref="com.consumidorsoap.bindings.ValorDeclarado"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:vigenciaERP">
+      <class ref="com.consumidorsoap.bindings.VigenciaERP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:dimensaoTO">
+      <class ref="com.consumidorsoap.bindings.DimensaoTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:medidaTO">
+      <class ref="com.consumidorsoap.bindings.MedidaTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:embalagemLRSMaster">
+      <class ref="com.consumidorsoap.bindings.EmbalagemLRSMaster"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:valePostal">
+      <class ref="com.consumidorsoap.bindings.ValePostal"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:coletaSimultanea">
+      <class ref="com.consumidorsoap.bindings.ColetaSimultanea"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:coleta">
+      <class ref="com.consumidorsoap.bindings.Coleta"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:produto">
+      <class ref="com.consumidorsoap.bindings.Produto"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:remetente">
+      <class ref="com.consumidorsoap.bindings.Remetente"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:pessoa">
+      <class ref="com.consumidorsoap.bindings.Pessoa"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:servicoAdicionalTO">
+      <class ref="com.consumidorsoap.bindings.ServicoAdicionalTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:retornoCancelamento">
+      <class ref="com.consumidorsoap.bindings.RetornoCancelamento"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:objetoSimplificado">
+      <class ref="com.consumidorsoap.bindings.ObjetoSimplificado"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:coletaReversa">
+      <class ref="com.consumidorsoap.bindings.ColetaReversa"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:objeto">
+      <class ref="com.consumidorsoap.bindings.Objeto"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:mensagemParametrizadaTO">
+      <class ref="com.consumidorsoap.bindings.MensagemParametrizadaTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:statusGerente">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.StatusGerente"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:tipoGerente">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.TipoGerente"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:statusUsuario">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.StatusUsuario"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:categoriaServico">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.CategoriaServico"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:simNao">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.SimNao"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:statusPlp">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.StatusPlp"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:statusObjetoPostal">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.StatusObjetoPostal"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:tipoEmbalagem">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.TipoEmbalagem"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:statusCartao">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.StatusCartao"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:tipoBloqueio">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.TipoBloqueio"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:acao">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.Acao"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:tipoMensagem">
+      <typesafeEnumClass ref="com.consumidorsoap.bindings.TipoMensagem"/>
+    </bindings>
+  </bindings>
+</bindings>
