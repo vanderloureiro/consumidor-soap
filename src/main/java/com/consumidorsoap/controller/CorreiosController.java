@@ -10,14 +10,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CorreiosController {
 
+    @Autowired
+    private CorreiosClient correiosClient;
 
     public CorreiosController() {
     }
 
     @GetMapping("{cep}")
     public ConsultaCEPResponse buscarDetalhes(@PathVariable String cep) {
-        // return this.correiosClient.buscarDetalhesCep(cep);
-        return null;
+        return this.correiosClient.buscarDetalhesCep(cep);
+        // return null;
     }
 
 }
